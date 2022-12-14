@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Predict Home Price{% endblock %}
+{% block content %}
+
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='app.css')}}" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<form action="#" method="post" class="form">
+    <h2>{{content}}</h2>
+    <h2>CRIM</h2>
+    <input class="area"  name="CRIM" value="0.02">
+    <h2>ZN</h2>
+    <input class="area1"  name="ZN" value="0">
+    <h2>INDUS</h2>
+    <input class="area"  name="INDUS" value="10">
+    <h2>CHAS</h2>
+    <input class="area1"  name="CHAS" value="0">
+    <h2>NOX</h2>
+    <input class="area"  name="NOX" value="0.5">
+    <h2>RM</h2>
+    <input class="area1"  name="RM" value="10">
+    <h2>AGE</h2>
+    <input class="area"  name="AGE" value="100">
+    <h2>DIS</h2>
+    <input class="area1"  name="DIS" value="10">
+    <h2>RAD</h2>
+    <input class="area"  name="RAD" value="10">
+    <h2>TAX</h2>
+    <input class="area1"  name="TAX" value="1000">
+    <h2>PTRATIO</h2>
+    <input class="area"  name="PTRATIO" value="10">
+    <h2>B</h2>
+    <input class="area1"  name="B" value="100">
+    <h2>LSTAT</h2>
+    <input class="area"  name="LSTAT" value="10">
+    <input class="submit" type="submit" value="Submit">
+</form>
+
+	
+{% endblock %}
