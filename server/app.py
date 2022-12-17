@@ -12,8 +12,8 @@ def predict_price_home():
     if request.method=="POST":
         data=[float(x) for x in request.form.values()]
         x=np.array(list(data)).reshape(1,-1)
-        print(x,file=sys.stderr)
-        re=util.predict_price(x)
+        print(data,file=sys.stderr)
+        #re=util.predict_price(x)
         response = jsonify({
             'estimated_price': util.predict_price(x)
         })
