@@ -10,6 +10,8 @@ and finally we compare R2 score rmse and cross validation to choose best model.
 
 and for each models we check normality linearity Homoscedasticity ...
 
+![Screenshot from 2022-12-18 00-00-35](https://user-images.githubusercontent.com/36596572/208265204-5687c548-6616-43ba-bdfa-e1c8732ce3a7.png)
+![Screenshot from 2022-12-18 00-00-45](https://user-images.githubusercontent.com/36596572/208265207-ab6c07f4-8968-4766-b84c-5224314891c9.png)
 
 ### Software And Tools Requirements
 
